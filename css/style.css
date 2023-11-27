@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #gtco-header .mt-text {
-  margin-top: 7em;
+  margin-top: 2em;
   margin-bottom: 3em;
 }
 @media screen and (max-width: 768px) {
@@ -1954,6 +1954,40 @@ form label {
   .fh5co-faq-list li h2 {
     font-size: 26px;
   }
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 60px;
+}
+.card_img {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: -60px auto 0;
+}
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_info {
+  padding-bottom: 20px;
+}
+.card_text {
+  padding: 0px 10px 10px 20px;
+  color: black;
+}
+a {
+text-decoration: none;
+color: #FBB448;
+}
+a:hover{
+color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
