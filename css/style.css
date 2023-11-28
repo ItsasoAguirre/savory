@@ -2007,4 +2007,21 @@ color: black;
   height: 100%;
 }
 
+.img_logo {
+  width: 100px;
+}
+
+.video_button {
+  margin-top: 1em;
+}
+.align_center {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.img_extras {
+  width: 725px;
+}
 /*# sourceMappingURL=style.css.map */
